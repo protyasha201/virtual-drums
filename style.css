@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    color: white;
+    padding: 0%;
+    background-color: rgb(44, 42, 42);
+}
+.navbar{
+    background-image: linear-gradient(190deg, rgb(112, 247, 112), rgb(133, 221, 238));
+    position: absolute;
+    top: 0%;
+    width: 100%;
+}
+.headings{
+    color: rgb(82, 78, 78);
+    font-family: 'Lexend Mega', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    transform: rotate(-4deg);
+    border: white 2px solid;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px;
+    transition: all 1s ease;
+}
+.headings:hover{
+    background-image: linear-gradient(190deg, rgb(118, 202, 118), rgb(96, 181, 197));
+    width: 405px;
+    font-size: 17px;
+}
+.container{
+    height: 420px;
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+    margin: 200px auto;
+}
+.row{
+    width: 100%;
+    height: 132px;
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+.drum-items{
+    width: 30%;
+    border-right: solid 2px rgb(111, 95, 95);
+    border-bottom: solid 2px rgb(48, 103, 121);
+    border-left: solid 2px rgb(48, 121, 74);
+    border-top: solid 2px rgb(121, 98, 48);
+    height: 100%;
+    text-align: center;
+    transition: all ease .4s;
+    cursor: pointer;
+    padding: 35px;
+    font-family: monospace;
+    transform: rotate(2deg);
+    font-size: 25px;
+    color: rgb(218, 120, 103);
+}
+.drum-items:hover{
+    background-color: rgb(50, 55, 55);
+    font-size: 23px;
+    color: rgb(209, 104, 104);
+}
+
+#kick{
+    width: 50%;
+    margin: 0% auto;
+    height: 100px;
+}
+footer p{
+    color: rgb(106, 100, 99);
+    font-size: 20px;
+    text-align: center;
+    font-family: monospace;
+}
