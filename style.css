@@ -77,3 +77,6 @@ footer p{
     text-align: center;
     font-family: monospace;
 }
+audio{
+    display: none;
+}
