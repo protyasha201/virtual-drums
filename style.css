@@ -42,6 +42,7 @@ body{
     height: 132px;
     display: flex;
     margin: 10px;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .drum-items{
