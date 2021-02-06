@@ -1,25 +1,14 @@
-// const getCrash = document.getElementById("crash-cymbal");
-// getCrash.addEventListener("click", () => {
-//     const playAudio = document.getElementById("play-crash");
-//     playAudio.play();
-// })
+playNow("crash-cymbal", "play-crash");
+playNow("ride-cymbal", "play-ride");
+playNow("tom-drums", "play-tom");
+playNow("hi-hat", "play-hi");
+playNow("snare-drums", "play-snare");
+playNow("open-hat", "play-open");
+playNow("kick", "play-kick");
 
-// const getRide = document.getElementById("ride-cymbal");
-// getRide.addEventListener("click", () => {
-//     const playAudio = document.getElementById("play-ride");
-//     playAudio.play();
-// })
-
-play("crash-cymbal", "play-crash");
-play("ride-cymbal", "play-ride");
-play("hi-hat", "play-hi");
-play("snare-drums", "play-snare");
-play("open-hat", "play-open");
-play("kick", "play-kick");
-
-function play(kitItem, playItem) {
+function playNow(kitItem, playItem) {
     const getRide = document.getElementById(kitItem);
-    getRide.addEventListener("click", () => {
+    getRide.addEventListener("mouseover", () => {
         const playAudio = document.getElementById(playItem);
         playAudio.play();
     })
